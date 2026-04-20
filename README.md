@@ -25,6 +25,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 - Singleton
   + Logger para registro de informações importantes na realização de um empréstimo (data, livro, usuário, data de devolução, etc.)
 - Proxy
+  + Proxy de verificação de tipo de um Livro que será adicionado no Acervo Físico ou Digital
 - Adaptador
 - Fachada
 - Decorador
