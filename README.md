@@ -18,3 +18,15 @@ A Biblioteca busca implementar um sistema de gestão híbrida para organizar seu
 
 # Diagrama de Classes UML do projeto (Atualizado)
 https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Biblioteca.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1z6_mAdNwLgtDfLVppVeA_hlXnDJ_oTVX%26export%3Ddownload
+
+# Ideias Atuais para implementação de cada Padrão de Projeto
+
+- Fábrica
+- Singleton
+  + Logger para registro de informações importantes na realização de um empréstimo (data, livro, usuário, data de devolução, etc.)
+- Proxy
+- Adaptador
+- Fachada
+- Decorador
+- Estratégia
+- Observador
