@@ -22,6 +22,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 # Ideias Atuais para implementação de cada Padrão de Projeto
 
 - Fábrica
+  + Implementação da Fábrica para as seguintes classes do projeto: Acervo, Biblioteca, Bibliotecario, Funcionario, Gestor, Leitor, Livro, LivroDigital, LivroFisico, Zelador.
 - Singleton
   + Logger para registro de informações importantes na realização de um empréstimo (data, livro, usuário, data de devolução, etc.)
 - Proxy
