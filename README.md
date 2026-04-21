@@ -21,14 +21,19 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 
 # Ideias Atuais para implementação de cada Padrão de Projeto
 
-- Fábrica
-  + Implementação da Fábrica para as seguintes classes do projeto: Acervo, Biblioteca, Bibliotecario, Funcionario, Gestor, Leitor, Livro, LivroDigital, LivroFisico, Zelador. ✅
-- Singleton
-  + Logger para registro de informações importantes na realização de um empréstimo (data, livro, usuário, data de devolução, etc.)
-- Proxy
-  + Proxy de verificação de tipo de um Livro que será adicionado no Acervo Físico ou Digital
-- Adaptador
-- Fachada
-- Decorador
-- Estratégia
-- Observador
+- Fábrica ✅
+  + Implementação da Fábrica para as seguintes classes do projeto: Acervo, Biblioteca, Bibliotecario, Funcionario, Gestor, Leitor, Livro, LivroDigital, LivroFisico, Zelador.
+- Singleton ❌
+  + A própria classe Biblioteca ou o gerenciador de configurações do sistema. 
+- Proxy ❌
+  + Controlar o acesso a livros raros (só quem tem permissão especial pode "abrir" o objeto). 
+- Adaptador ❌
+  + Se você precisar integrar seu sistema com um leitor de Kindle externo que usa um formato de dados diferente. 
+- Fachada ❌
+  + Uma classe SistemaBiblioteca que simplifica o uso, escondendo a complexidade das fábricas, acervo e multas. 
+- Decorador ❌
+  + Adicionar funcionalidades a um livro (ex: um "Livro com Capa Especial" ou "Livro com Seguro").
+- Estratégia ❌
+  + Diferentes formas de calcular a multa (multa para alunos vs. multa para professores).
+- Observador ❌
+  + Avisar os leitores quando um livro reservado ficar disponível.
