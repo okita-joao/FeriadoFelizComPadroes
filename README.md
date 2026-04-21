@@ -25,7 +25,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
   + Implementação da Fábrica para as seguintes classes do projeto: Acervo, Bibliotecario, Funcionario, Gestor, Leitor, Livro, LivroDigital, LivroFisico, Zelador.
 - Singleton ✅
   + Implementar um Singleton para a própria classe Biblioteca, pois dessa forma garantimos que só existirá uma única instancia para a Biblioteca no programa. 
-- Proxy ❌
+- Proxy ✅
   + Controlar o acesso a livros raros (só quem tem permissão especial pode "abrir" o objeto). 
 - Adaptador ❌
   + Se você precisar integrar seu sistema com um leitor de Kindle externo que usa um formato de dados diferente. 
