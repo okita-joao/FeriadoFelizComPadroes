@@ -32,7 +32,9 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 - Fachada ❌
   + Uma classe SistemaBiblioteca que simplifica o uso, escondendo a complexidade das fábricas, acervo e multas. 
 - Decorador ❌
-  + Adicionar funcionalidades a um livro (ex: um "Livro com Capa Especial" ou "Livro com Seguro").
+  + Adicionar premiações a um livro (ex: um Livro campeão do prêmio Jabuti).
+  + Adicionar na descrição do livro que este se trata de uma edição especial.
+  + Obs.: Tanto o aspecto de edição especial, quanto os prêmios que o livro ganhou serão destados ao lado do Título do Livro.
 - Estratégia ❌
   + Diferentes formas de calcular a multa (multa para alunos vs. multa para professores).
 - Observador ❌
