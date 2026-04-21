@@ -27,7 +27,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
   + Implementar um Singleton para a própria classe Biblioteca, pois dessa forma garantimos que só existirá uma única instancia para a Biblioteca no programa. 
 - Proxy ✅
   + Controlar o acesso a livros raros (só quem tem permissão especial pode "abrir" o objeto). 
-- Adaptador ❌
+- Adaptador ✅
   + Se você precisar integrar seu sistema com um leitor de Kindle externo que usa um formato de dados diferente. 
 - Fachada ❌
   + Uma classe SistemaBiblioteca que simplifica o uso, escondendo a complexidade das fábricas, acervo e multas. 
