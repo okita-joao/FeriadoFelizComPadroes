@@ -22,7 +22,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 # Ideias Atuais para implementação de cada Padrão de Projeto
 
 - Fábrica ✅
-  + Implementação da Fábrica para as seguintes classes do projeto: Acervo, Biblioteca, Bibliotecario, Funcionario, Gestor, Leitor, Livro, LivroDigital, LivroFisico, Zelador.
+  + Implementação da Fábrica para as seguintes classes do projeto: Acervo, Bibliotecario, Funcionario, Gestor, Leitor, Livro, LivroDigital, LivroFisico, Zelador.
 - Singleton ❌
   + A própria classe Biblioteca ou o gerenciador de configurações do sistema. 
 - Proxy ❌
