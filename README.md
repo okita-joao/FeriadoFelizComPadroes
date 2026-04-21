@@ -42,8 +42,13 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 A ideia central do Main é simular uma série de acontecimentos dentro da aplicação desenvolvida na Biblioteca afim de testar as funcionalidades dos Padrões de Projetos implementados.
 
 Resumidamente, a sequência esperada de operações a serem testadas na Main por enquanto são:
+
 1 - O sistema inicia (Singleton).
+
 2 - O Bibliotecário adiciona um livro (Fábrica).
+
 3 - Um Usuário se cadastra e assina notificações (Observer).
+
 4 - O Usuário tenta pegar um livro, mas o sistema verifica permissões (Proxy).
+
 5 - O cálculo da multa é feito de forma diferente para ele (Strategy).
