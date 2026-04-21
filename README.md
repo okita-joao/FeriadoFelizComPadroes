@@ -29,9 +29,9 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
   + Controlar o acesso a livros raros (só quem tem permissão especial pode "abrir" o objeto). 
 - Adaptador ✅
   + Se você precisar integrar seu sistema com um leitor de Kindle externo que usa um formato de dados diferente. 
-- Fachada ❌
-  + Uma classe SistemaBiblioteca que simplifica o uso, escondendo a complexidade das fábricas, acervo e multas. 
-- Decorador ❌
+- Fachada ✅
+  + Ao utilizar o padrão de Singleton na classe Biblioteca, também foi otimizado a utilização do método construtor da Biblioteca, ao qual não necessita mais da citação de vários parâmetros para se criar uma Biblioteca como instância, mas o próprio método getInstance() do Singleton implementado cria uma Biblioteca com atributos pré-setados que podem ser tranquilamente alterados pelos métodos Getters e Setters dessa classe. 
+- Decorador ✅
   + Adicionar premiações a um livro (ex: um Livro campeão do prêmio Jabuti).
   + Adicionar na descrição do livro que este se trata de uma edição especial.
   + Obs.: Tanto o aspecto de edição especial, quanto os prêmios que o livro ganhou serão destados ao lado do Título do Livro.
