@@ -8,6 +8,9 @@ import java.util.TreeMap;
 import Projeto_Biblioteca.Fábricas.*;
 
 public class Biblioteca {
+    // Instância Estática (Singleton)
+    private static Biblioteca biblioteca;
+
     // Atributos da Classe Biblioteca
     private String nomeBiblioteca;
     private int totalLeitores;
@@ -25,7 +28,7 @@ public class Biblioteca {
     private List<Zelador> equipeZelamento;
 
     // Método Construtor
-    public Biblioteca(String nomeBiblioteca, int totalLeitores, double taxaMultaDiaria, int limiteLivrosPorLeitor) {
+    private Biblioteca(String nomeBiblioteca, int totalLeitores, double taxaMultaDiaria, int limiteLivrosPorLeitor) {
         this.setNomeBiblioteca(nomeBiblioteca);
         this.setTotalLeitores(totalLeitores);
         this.setTaxaMultaDiaria(taxaMultaDiaria);
@@ -38,6 +41,14 @@ public class Biblioteca {
         this.equipeBibliotecarios = new ArrayList<>();
         this.equipeGestao = new ArrayList<>();
         this.equipeZelamento = new ArrayList<>();
+    }
+
+    // Método getInstance()
+    public static Biblioteca getBiblioteca() {
+        if (biblioteca == null) {
+            biblioteca = new Biblioteca("Biblioteca", 0, 2, 3);
+        }
+        return biblioteca;
     }
 
     // #region Getters e Setters
