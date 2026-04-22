@@ -38,7 +38,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 - Estratégia ✅
   + Diferentes formas de calcular o Bônus Salarial de um Funcionário dependendo da sua Produtividade (Alta, Média ou Baixa).
 - Observador ✅
-  + Avisar os leitores quando um livro reservado ficar disponível.
+  + Avisar os Funcionários quando um Aviso é atualizado no Mural de Avisos.
 
 # Main (Escopo)
 A ideia central do Main é simular uma série de acontecimentos dentro da aplicação desenvolvida na Biblioteca afim de testar as funcionalidades dos Padrões de Projetos implementados.
