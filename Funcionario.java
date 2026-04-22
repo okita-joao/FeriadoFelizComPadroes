@@ -1,8 +1,9 @@
 package Projeto_Biblioteca;
 
 import Projeto_Biblioteca.CalculaBonusSalarial.EstrategiaCalculoBonusSalarial;
+import Projeto_Biblioteca.MuralDeAvisos.*;
 
-public class Funcionario {
+public class Funcionario implements Observador {
     // Atributos da Classe Funcionário
     private String nome;
     private int idFuncionario;
@@ -84,5 +85,15 @@ public class Funcionario {
 
     public double calculaBonusSalarial() {
         return this.getBonusSalarial().calculaBonusSalarial(this);
+    }
+
+    public void update(Sujeito s) {
+        if (s instanceof MuralDeAvisos) {
+            MuralDeAvisos m = (MuralDeAvisos) s;
+            System.out.printf("%s você recebeu uma notificação do Mural de Avisos: %s", this.getNome(),
+                    m.getAvisoAtual());
+        } else {
+            throw new IllegalArgumentException("Erro na chamada do método update() da classe Cidade.");
+        }
     }
 }
