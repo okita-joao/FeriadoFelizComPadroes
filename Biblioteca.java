@@ -3,8 +3,6 @@ package Projeto_Biblioteca;
 // Importação de bibliotecas importantes para a implementação da Classe
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
-import java.util.TreeMap;
 import Projeto_Biblioteca.Fábricas.*;
 
 public class Biblioteca {
@@ -112,12 +110,28 @@ public class Biblioteca {
         return this.usuarios;
     }
 
+    public void addUsuario(Leitor leitor) {
+        this.getUsuarios().add(leitor);
+    }
+
+    public void removeUsuario(Leitor leitor) {
+        this.getUsuarios().remove(leitor);
+    }
+
     public void setEquipeBibliotecarios(List<Bibliotecario> equipeBibliotecarios) {
         this.equipeBibliotecarios = new ArrayList<>(equipeBibliotecarios);
     }
 
     public List<Bibliotecario> getEquipeBibliotecarios() {
         return this.equipeBibliotecarios;
+    }
+
+    public void addBibliotecario(Bibliotecario b) {
+        this.getEquipeBibliotecarios().add(b);
+    }
+
+    public void removeBibliotecario(Bibliotecario b) {
+        this.getEquipeBibliotecarios().remove(b);
     }
 
     public void setEquipeGestao(List<Gestor> equipeGestao) {
@@ -128,6 +142,14 @@ public class Biblioteca {
         return this.equipeGestao;
     }
 
+    public void addGestor(Gestor g) {
+        this.getEquipeGestao().add(g);
+    }
+
+    public void removeGestor(Gestor g) {
+        this.getEquipeGestao().remove(g);
+    }
+
     public void setEquipeZelamento(List<Zelador> equipeZelamento) {
         this.equipeZelamento = new ArrayList<>(equipeZelamento);
     }
@@ -135,5 +157,14 @@ public class Biblioteca {
     public List<Zelador> getEquipeZelamento() {
         return this.equipeZelamento;
     }
+
+    public void addZelador(Zelador z) {
+        this.getEquipeZelamento().add(z);
+    }
+
+    public void removeZelador(Zelador z) {
+        this.getEquipeZelamento().remove(z);
+    }
+
     // #endregion
 }
