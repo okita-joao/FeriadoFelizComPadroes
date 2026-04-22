@@ -1,0 +1,14 @@
+package Projeto_Biblioteca.CalculaBonusSalarial;
+
+import Projeto_Biblioteca.Funcionario;
+
+public class ProdutividadeBaixa implements EstrategiaCalculoBonusSalarial {
+    // Método Construtor da Classe
+    public ProdutividadeBaixa() {
+    }
+
+    // Método para Cálculo do Bônus Salarial para produtividade baixa
+    public double calculaBonusSalarial(Funcionario f) {
+        return f.getSalario() * 0.05;
+    }
+}
