@@ -42,5 +42,3 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000f
 
 # Main (Escopo)
 A ideia central do Main é simular uma série de acontecimentos dentro da aplicação desenvolvida na Biblioteca afim de testar as funcionalidades dos Padrões de Projetos implementados.
-
-Resumidamente, a sequência esperada de operações a serem testadas na Main por enquanto são:
